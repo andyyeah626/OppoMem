@@ -1,0 +1,27 @@
+{
+  "game": "hanabi",
+  "horizon": 100,
+  "batches": 2,
+  "episodes_per_batch": 2,
+  "test_episodes": 12,
+  "seed": 202611070,
+  "history_limit": null,
+  "injection_dropout": 0.5,
+  "partner": "llm",
+  "game_dir": null,
+  "prompt_source": null,
+  "models": {
+    "provider": "deepseek",
+    "model": "deepseek-flash",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "base_url": "https://api.deepseek.com",
+    "reasoning_effort": "low",
+    "encoder": "intfloat/e5-base-v2",
+    "nli": "cross-encoder/nli-deberta-v3-xsmall",
+    "cache_dir": null,
+    "allow_download": false,
+    "read_only_response_cache": null
+  },
+  "evaluation_workers": 8,
+  "frozen_profile": null
+}

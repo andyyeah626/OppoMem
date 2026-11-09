@@ -1,0 +1,329 @@
+{
+  "experiment": "reflection_ds_4omini_20261108",
+  "verified_runtime_sources": {
+    "ipd": "f0c101326e387d1383a93d2895cd9e28fff45f1bca24667855a9485f2230e79c",
+    "rps": "f0c101326e387d1383a93d2895cd9e28fff45f1bca24667855a9485f2230e79c",
+    "hanabi": "0158d4299fe62ed28ddf2ea08a828e24216f9b2841afc285ad24a2ef22cdeebd",
+    "deliberation": "09c97ba0035092b1d120b7cb2e7a015af45a8c2e62b113d1dc7784515c7cf261"
+  },
+  "imported_package_files": {
+    "__init__.py": {
+      "snapshot": "source",
+      "sha256": "8cd33f83833f957ad8ee58c9a62235a419daadc4f1311fc1472c8e077c93891d"
+    },
+    "__main__.py": {
+      "snapshot": "source",
+      "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
+    },
+    "agent.py": {
+      "snapshot": "source",
+      "sha256": "a2a7d7b9cac00e15fe81fbb08975d12d1bdb9d47233827cc8da76931b11898b1"
+    },
+    "cli.py": {
+      "snapshot": "source",
+      "sha256": "b17101746c1500c23a21f9357be407041bc09f43b5cd9f93f4caf48f27608223"
+    },
+    "config.py": {
+      "snapshot": "source",
+      "sha256": "e4e094ec5054e59684c8add8dd1276ad45ae1cfe4499f5512c6fc3f573375ca8"
+    },
+    "deliberation/__init__.py": {
+      "snapshot": "source",
+      "sha256": "8cd33f83833f957ad8ee58c9a62235a419daadc4f1311fc1472c8e077c93891d"
+    },
+    "deliberation/gate.py": {
+      "snapshot": "source",
+      "sha256": "cb82001f6ac4aaeee9371fe0a5d650e05dd7ede2ef8896820cfbf645a6a41dd4"
+    },
+    "deliberation/memory.py": {
+      "snapshot": "source",
+      "sha256": "925546a50b48a0fd02a937537a63cbb0f8a544bdb990cc176c1e8c96e0fbb95b"
+    },
+    "deliberation/pipeline.py": {
+      "snapshot": "source_deliberation",
+      "sha256": "8b2419325121ee43b0c72bd09b58c0d0714b29545096cfbf50cc8050c8c8a1df"
+    },
+    "deliberation/policy.py": {
+      "snapshot": "source",
+      "sha256": "1ba6fdc83d6837187e5300181aed25947afb8dac69af19c73402f3f8f9f1a810"
+    },
+    "deliberation/protocol.py": {
+      "snapshot": "source",
+      "sha256": "6b279b053a43aa723bab77a65d016996871179c5ada422711d6440c880432d18"
+    },
+    "factory.py": {
+      "snapshot": "source",
+      "sha256": "49844c8185b6241909880e5d31018504a75db23ce4d47c26752eb65bff91ce62"
+    },
+    "games/__init__.py": {
+      "snapshot": "source",
+      "sha256": "8cd33f83833f957ad8ee58c9a62235a419daadc4f1311fc1472c8e077c93891d"
+    },
+    "games/fixed_rps.py": {
+      "snapshot": "source",
+      "sha256": "543472bbc6c3ae5a2d0201706c6c1c22bb9fe4998d5e61394bc1244afc9ba379"
+    },
+    "games/hanabi.py": {
+      "snapshot": "source",
+      "sha256": "4a827f0702e27dcafe6764adfa654705cfb0a53e51448a04c19ba9543d689887"
+    },
+    "games/ipd.py": {
+      "snapshot": "source",
+      "sha256": "d4c8ddb1b641fd0b31ea68afeddee6b6413bc6f68d8241c7d99a5e9a9b87abda"
+    },
+    "games/isolated.py": {
+      "snapshot": "source",
+      "sha256": "56287a70d37f70d40be6f1d1331c0fe85afdd6e83190eec468e89629ae4a0509"
+    },
+    "games/llm_hanabi.py": {
+      "snapshot": "source_hanabi",
+      "sha256": "2237a4e3d607977324a0c97143e2990127e16fb6be7dd78c72b98f6175edf15e"
+    },
+    "games/llm_ipd.py": {
+      "snapshot": "source",
+      "sha256": "fe78c6eef5ac40778263b4002dc062f2157f585bf747bf7c29639f797b22a7ce"
+    },
+    "games/llm_rps.py": {
+      "snapshot": "source",
+      "sha256": "ee341ab68087373faa4737d71862a4af76bc47285f34ddc9d68b907de9fcf55b"
+    },
+    "games/protocol.py": {
+      "snapshot": "source",
+      "sha256": "aff86744a776414bcee7b17ec563cc27aeed6590272187d5a5db1eb7f845c29e"
+    },
+    "games/rps.py": {
+      "snapshot": "source",
+      "sha256": "76b6e95cf7115e2831a8ee7ce8f7cf728365d92c1ff80901a0b8d10deac31032"
+    },
+    "memory/__init__.py": {
+      "snapshot": "source",
+      "sha256": "467f1c4bfa5058dc4b446d42a235519092b8c4909494459ef3b5af1e13aa4799"
+    },
+    "memory/bank.py": {
+      "snapshot": "source",
+      "sha256": "083b4863fba9efda0a0199541ce2d416a6137c21ee8369495beca4df7f50a254"
+    },
+    "memory/common.py": {
+      "snapshot": "source",
+      "sha256": "58e75c4971f74b94e5126799cf439292ecf7284aaee6f3c3eb16dd8d03686888"
+    },
+    "memory/evidence.py": {
+      "snapshot": "source",
+      "sha256": "5bc020aa68001ec8de4eebb8e4ce61f1981c91023b1a9b1b4c00895c68a2f7d8"
+    },
+    "memory/evolution.py": {
+      "snapshot": "source",
+      "sha256": "ab25a7946c86fe79f9f0cb58e3d88ea00c25d7d3d6b55b444cfec5e9b554b9da"
+    },
+    "memory/learning.py": {
+      "snapshot": "source",
+      "sha256": "17c321211c6ea859c941e6847af8f148a365b83f9790a064aea13ae1a679ec0e"
+    },
+    "memory/overlap.py": {
+      "snapshot": "source",
+      "sha256": "18fd33d978a379b5af9cba97ddedd69e29032df8c7672ce02f9e1b04f33e92d3"
+    },
+    "memory/prompts.py": {
+      "snapshot": "source",
+      "sha256": "df5eb691f84f4165fc2901b90eb2553bcda3781500a5ee0c0abc3984bee83b59"
+    },
+    "memory/retrieval.py": {
+      "snapshot": "source",
+      "sha256": "f695b3e1ba66d8535bbf3e43ca9de6f6743f9988b952e4244a72568a59a597c6"
+    },
+    "memory/retrieval_tools.py": {
+      "snapshot": "source",
+      "sha256": "e936f3e4f26d79277fa9b0eba05467399e8ff0555d2be6aabfed008ca0b713e1"
+    },
+    "memory/rps.py": {
+      "snapshot": "source",
+      "sha256": "9e32a5fb4331581f58f0f11c9141df6aa21fa794e699fa7b3c067049ce7982d2"
+    },
+    "memory/windows.py": {
+      "snapshot": "source",
+      "sha256": "afdb623012ad321215b49c119c4e2c1cba5fd6ebae7325c75faa8a469b310b5f"
+    },
+    "models/__init__.py": {
+      "snapshot": "source",
+      "sha256": "8cd33f83833f957ad8ee58c9a62235a419daadc4f1311fc1472c8e077c93891d"
+    },
+    "models/cache.py": {
+      "snapshot": "source",
+      "sha256": "002fa1a18400ffa6afa13902ba1086b7ee9289930c35927c2b933e6239c759aa"
+    },
+    "models/openai.py": {
+      "snapshot": "source",
+      "sha256": "fb2980c4bbaad3eea535cb48d3c61f41d63718c57f87a22951255752e896d0dd"
+    },
+    "models/protocol.py": {
+      "snapshot": "source",
+      "sha256": "b8d4f37abb9b2b49565d68148b4a75cb943b75cc437f82cf81013a9b6c49b005"
+    },
+    "models/semantics.py": {
+      "snapshot": "source",
+      "sha256": "83c7fa0225ff8843c7f17b070e4ed076e38ee695d9af6dde09dd09f5352918d4"
+    },
+    "prompts/__init__.py": {
+      "snapshot": "source",
+      "sha256": "8cd33f83833f957ad8ee58c9a62235a419daadc4f1311fc1472c8e077c93891d"
+    },
+    "prompts/contracts.py": {
+      "snapshot": "source",
+      "sha256": "e54ac4901d1a778879fca1fdf7fadb82b4eecdfeba081bac0c63735a9af67e4d"
+    },
+    "prompts/decision.py": {
+      "snapshot": "source",
+      "sha256": "64a2231a62b95ad23b90bcbb6bbdc3f8a55ee0fd594a92ddaf76510afb85c067"
+    },
+    "prompts/history.py": {
+      "snapshot": "source",
+      "sha256": "a57ef254f5edc11110be801d9eeab913611ebee74858022410fdd0395a61322b"
+    },
+    "prompts/ipd.py": {
+      "snapshot": "source",
+      "sha256": "e9e83c0b6e5f6f9a5f31f3b4019b06212e82cec9e21fb1378f2bfe16787ce87e"
+    },
+    "prompts/rps.py": {
+      "snapshot": "source",
+      "sha256": "cd6d9fe349150a33c288b284d88cf27b7719cc2ed6fffc5a3aa101b70ec1cdc3"
+    },
+    "prompts/tom.py": {
+      "snapshot": "source",
+      "sha256": "c2f8ebf71bed818cda86e32c139eb1b37ba6ee0694430e544852e7a10b20fdd1"
+    },
+    "prompts/tom_nl.py": {
+      "snapshot": "source",
+      "sha256": "6950a174c40e42df0ee4e1a0d2d9d933b49d0e9a53246b6f9cf03f5e5629d834"
+    },
+    "runtime/__init__.py": {
+      "snapshot": "source",
+      "sha256": "8cd33f83833f957ad8ee58c9a62235a419daadc4f1311fc1472c8e077c93891d"
+    },
+    "runtime/audit.py": {
+      "snapshot": "source",
+      "sha256": "be82740c1c8ed1545d6a75496a14cdf875ade0c7fc1e148c5a278db2a9627b1d"
+    },
+    "runtime/episode.py": {
+      "snapshot": "source",
+      "sha256": "cbe585b420e0efb58d4b506cf192e8697f7b0af282d47f1b5f9c8bdbf5d38b97"
+    },
+    "runtime/experiment.py": {
+      "snapshot": "source",
+      "sha256": "814e92190750fb542cf8d9316cdc002d1a9bbc710a82b160bc04cacf75608c47"
+    },
+    "runtime/ipd.py": {
+      "snapshot": "source",
+      "sha256": "67004bccf0e6f95fa74c755f1844454c6643807f7c11d88454f7d5e6c171a647"
+    },
+    "runtime/offline.py": {
+      "snapshot": "source",
+      "sha256": "debdabac5de690f8d32d40bcd9ad8e38150df11fd90bb21bdf9656ea7b66d681"
+    },
+    "runtime/storage.py": {
+      "snapshot": "source",
+      "sha256": "c05f7e68e8ac58d320a1991157eda957ae7522956a647f58796f09c968dbf807"
+    },
+    "types.py": {
+      "snapshot": "source",
+      "sha256": "e1d0702b42b3a05c173487e4b144c672c26464ab1f165f499cf4ce7d95eef697"
+    }
+  },
+  "deliberation_assets": {
+    "src/oppomem/assets/deliberation/games_descriptions/base/config.txt": {
+      "sha256": "4b9370d633d1b99d327a67d60cc5dc457e1802d4ceb64c7a94d953b05a405f68",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/global_instructions.txt": {
+      "sha256": "ce10d46ddda35e6eccfb74b952a42b28efb1bf28a43c44a7881b9c96cf53ed30",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/cooperative/DoT.txt": {
+      "sha256": "28a6137bd13d292c9cad6167f9e1c8f092ede5c00cb819c840815682e38a0558",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/cooperative/enviroment.txt": {
+      "sha256": "716442e7acc243eace478dd458ef218e7781cea8ce3bdea137bcdc8e04cbd8cf",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/cooperative/mayor.txt": {
+      "sha256": "58a37d63250fa8ef623e52221758f02c7fd3e9dcb3681dae55bf03f35c99bbd5",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/cooperative/other_cities.txt": {
+      "sha256": "c9f8c4f656176b68c63a22473cd354f5bdf1806fd7e1228da233478606514d0b",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/cooperative/SportCo.txt": {
+      "sha256": "5167f4d9aefc80c9d74463eccaaa01ab27e6f75a19fde963cedfc170e743245b",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/cooperative/union.txt": {
+      "sha256": "640504388b0523d427b42626808f090048bdf3b874a73273c4372338b9d770f7",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/greedy/DoT.txt": {
+      "sha256": "bf2eb038bdc0227a399b43351f6ed57db847df5347d8d18762babe5bd9a2b436",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/greedy/enviroment.txt": {
+      "sha256": "0693adb5c268b8fe08c75929a0c6d96dffddaf2b5dd0c36c13f24163c151f7f6",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/greedy/mayor.txt": {
+      "sha256": "bed8f6c8817f95b0e7b5ac5922e1e5778d63f5506d31671ff94e6a720936016b",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/greedy/other_cities.txt": {
+      "sha256": "50dacc80974ef563f28c0728aface98805231481bad4044177d3b727f3b4ce5c",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/greedy/SportCo.txt": {
+      "sha256": "ab8392fee390e12e0dc4e0356b8171f89c9f88c1a0e7de194e1fb82e373a368a",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/greedy/union.txt": {
+      "sha256": "e013990975601e91fde0d03252e668af3eeceddef6572de1691cbcdc2b7f11bf",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/targeted_adv/enviroment.txt": {
+      "sha256": "525ec9ee01adc898208c481575247406fd395d3267c40af667e5fa6e85d213bb",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/individual_instructions/untargeted_adv/enviroment.txt": {
+      "sha256": "525ec9ee01adc898208c481575247406fd395d3267c40af667e5fa6e85d213bb",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/initial_deal.txt": {
+      "sha256": "a01e56e6ab13c9cf727c650d71f9d37daf3bc8e8a27dd00b7ff2fe6c7e39411c",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/scores_files/DoT.txt": {
+      "sha256": "2753ce8ab399fa03f7657cc50f57d7fb1bd0857895db5c8a24cd386492feaad3",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/scores_files/enviroment.txt": {
+      "sha256": "47f7579792e7f4a7f3c3ca12e9954e7450b7b47de66b088c20ec98efdf78b284",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/scores_files/mayor.txt": {
+      "sha256": "ce55e29d43b13d2590427d6d9661145da6020a9d09389ac66310a07c23a7f228",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/scores_files/other_cities.txt": {
+      "sha256": "627dd115ff13b4a227a8c4784a186c07dbf744d3ceaca4019776af832874fe1c",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/scores_files/SportCo.txt": {
+      "sha256": "e459a6f6e733b228b3add5527a3858331e421a9ec4ea511e1c8e78e95882e575",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/games_descriptions/base/scores_files/union.txt": {
+      "sha256": "e4b2843012a07b45952741301a391b2fc8b9b148f6c53f3cce7ec4ca2b8d4b50",
+      "matches_upstream": true
+    },
+    "src/oppomem/assets/deliberation/initial_prompts.py": {
+      "sha256": "ab6067c9ccddff5441227260702886f8f1e3dc10688b884ede858077e229f6a4",
+      "matches_upstream": true
+    }
+  }
+}

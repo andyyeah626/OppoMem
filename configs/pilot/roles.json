@@ -1,0 +1,47 @@
+{
+  "training_participant": {
+    "model": "qwen3.6-flash",
+    "api_key_env": "QWEN_API_KEY",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  },
+  "test_participant": {
+    "model": "gpt-5.5",
+    "api_key_env": "OPPONENT_API_KEY",
+    "base_url_env": "OPPONENT_BASE_URL",
+    "reasoning_effort": "low"
+  },
+  "reflectors": {
+    "ds": null,
+    "sol": {
+      "model": "gpt-5.6-sol",
+      "api_key_env": "REFLECTION_API_KEY",
+      "base_url_env": "REFLECTION_BASE_URL",
+      "reasoning_effort": "low"
+    },
+    "4o-mini": {
+      "model": "gpt-4o-mini-2024-07-18",
+      "api_key_env": "REFLECTION_API_KEY",
+      "base_url_env": "REFLECTION_BASE_URL"
+    }
+  },
+  "memory_defaults": {
+    "memory_mechanism": "tom_centroid_v1",
+    "memory_scope": "extracted-core-v1",
+    "protocol_id": "extracted-core-v1",
+    "tom_prompt_variant": "A",
+    "embedding_mode": "e5",
+    "retrieval_backend": "cosine_topk_nli_rerank",
+    "retrieval_min_similarity": 0.55,
+    "retrieval_min_entailment": 0,
+    "retrieval_top_k": 8,
+    "use_prototype": true,
+    "merge_similarity_threshold": 0.82,
+    "nli_contradiction_threshold": 0.7,
+    "max_centroid_size": null,
+    "max_cluster_members": null,
+    "fixed_policy_protocol": false,
+    "abstract_rps_memory": false,
+    "injection_min_margin": 0,
+    "injection_tom_overlap_min": 0
+  }
+}

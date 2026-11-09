@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oppomem"
+version = "0.1.0"
+description = "Opponent-aware memory for language model agents in strategic games"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "licenses/*.txt"]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+live = ["openai>=1", "torch>=2.6", "transformers>=4.40", "sentencepiece"]
+ipd = ["axelrod==4.14.0"]
+spiel = ["open-spiel==2.0.2"]
+
+[project.scripts]
+oppomem = "oppomem.cli:main"
+oppomem-pilot = "oppomem.pilot:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools.package-data]
+oppomem = ["assets/deliberation/*.py", "assets/deliberation/games_descriptions/base/**/*.txt", "assets/deliberation/games_descriptions/base/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"
